@@ -1,0 +1,14 @@
+$btn-width: sm, md, lg;
+$defult-padding:12px;
+@each $width in $btn-width{
+    .btn-#{$width}{
+        padding: $defult-padding ($defult-padding * 2);
+        background: teal;
+        color: white;
+        border: none;
+        border-radius: 18px;
+    }
+    $defult-padding: $defult-padding + 4;
+
+
+}

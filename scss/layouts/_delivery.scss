@@ -1,0 +1,57 @@
+/* DELIVERY */
+.delivery {
+  padding: 60px 8%;
+  background: #fff;
+  text-align: center;
+
+  h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #ff6600;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #2c2c2c;
+    margin-bottom: 40px;
+  }
+  .group-big{
+    display: flex;
+    justify-content: space-between;
+  }
+  .delivery1 {
+    background-color: rgba(63, 8, 8, 0.685);
+    padding: 25px;
+    margin: 15px auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 15px;
+      object-fit: contain;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+}
