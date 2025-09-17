@@ -568,20 +568,4 @@ h2 {
     background: #2c2c2c;
     color: #fff;
     font-size: 14px;
-}
-@media(max-width: 900px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-    }
-    .hero-content {
-        max-width: 100%;
-        margin-bottom: 30px;
-    }
-    .about .images,
-    .menu .items,
-    .testimonials .cards,
-    .gallery .images {
-        flex-direction: column;
-    }
 }/*# sourceMappingURL=main.min.css.map */
