@@ -53,15 +53,15 @@
   .testimonials .cards,
   .gallery .images,
   .delivery .group-big {
-    grid-template-columns: 1fr !important;
-    flex-direction: column !important;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column ;
   }
 
   .delivery .group-big {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
   }
 
   .contact .big-contact {
